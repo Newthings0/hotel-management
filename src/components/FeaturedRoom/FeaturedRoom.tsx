@@ -36,7 +36,7 @@ const FeaturedRoom: FC<Props> = (props) => {
                 className="img scale-animation"
               />
             </div>
-          ))}FeaturedRoom={}
+          ))}
         </div>
       </div>
 
