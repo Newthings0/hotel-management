@@ -38,7 +38,7 @@ const Auth = () => {
       router.push("/");
     } catch (error) {
       console.log(error);
-      toast.error("Something wen't wrong");
+      toast.error("Something went wrong");
     }
   };
 

@@ -17,8 +17,11 @@ const Header = () => {
   return (
     <header className="py-10 px-4 container mx-auto text-xl flex flex-wrap md:flex-nowrap items-center justify-between">
       <div className="flex items-center w-full md:2/3">
-        <Link href="/" className="font-heading text-tertiary-dark">
-          Shell Place Houston/Accommodation
+        <Link
+          href="/"
+          className="font-medium md:font-semibold md:text-4xl text-xl  text-tertiary-dark"
+        >
+          Shell Woodcreek Complex/Hotel
         </Link>
         <ul className="flex items-center ml-5">
           <li className="flex items-center">
@@ -74,7 +77,9 @@ const Header = () => {
           <Link href="/rooms">Rooms</Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="/">Contact</Link>
+          <Link href="https://www.shell.us/about-us/contact-shell.html">
+            Contact
+          </Link>
         </li>
       </ul>
     </header>
