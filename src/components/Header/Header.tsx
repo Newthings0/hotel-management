@@ -21,7 +21,7 @@ const Header = () => {
           href="/"
           className="font-medium md:font-semibold md:text-4xl text-xl  text-tertiary-dark"
         >
-          Shell Woodcreek Complex/Hotel
+          Shell Woodcreek Complex Hotel
         </Link>
         <ul className="flex items-center ml-5">
           <li className="flex items-center">

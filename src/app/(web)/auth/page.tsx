@@ -54,7 +54,8 @@ const Auth = () => {
       console.log(error);
       toast.error("Something went swrong");
     } finally {
-      setFormData(defaultFormData);
+      router.push("/auth");
+      // setFormData(defaultFormData); correct test
     }
   };
 
